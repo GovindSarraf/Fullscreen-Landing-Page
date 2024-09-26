@@ -1,0 +1,83 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       background-color: #b9d9df;
+
+}
+
+#showcase {
+       background-image: url(./img/pexels-jules-clark-624979041-22912024.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 95vh;
+       width: 100%;
+}
+.top{
+       display: flex;
+       padding: 2rem;
+}
+i{
+       flex: 1;
+}
+h1 {
+       flex: 1;
+       margin-right: 75rem;
+       font-size: 2.5rem;
+       color: rgb(133, 187, 238);
+}
+span{
+       color: rgb(115, 211, 240);
+}
+span1{
+       font-size: 0.8rem;
+       color: rgb(222, 238, 245);
+}
+.top1{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       color: rgba(0, 0, 0, 0.5);
+       margin-top: 3%;
+}
+.top1 h2{
+       font-size: 2rem;
+       padding: 0.6rem;
+}
+.top1 p{
+       font-size: 1.3rem;
+       padding: 0.5rem 5rem;
+}
+.top1 .button{
+       font-size: 20px;
+       text-decoration: none;
+       color: rgba(0, 0, 0, 0.87);
+       border: 1px solid #78d4e4;
+       border-radius: 10px;
+       padding: 10px;
+}
+.top1 .button:hover{
+       color: #ffffff;
+}
+#content{
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       padding: 1rem 5rem;
+}
+#content h2{
+       border-bottom: 1px solid #ffffff;
+}
+#content p{
+       font-size:1.2rem ;
+}
+#section{
+       display: flex;
+       padding: 1rem 5rem;
+}
